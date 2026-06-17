@@ -56,6 +56,13 @@
     <Compile Include="cafeteria\FormCafeteria.Designer.cs">
       <DependentUpon>FormCafeteria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Expendedora\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expendedora\FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expendedora\Producto.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cafeteria\FormCafeteria.resx">
       <DependentUpon>FormCafeteria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expendedora\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

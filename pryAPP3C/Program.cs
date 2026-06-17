@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using pryAPP3C.holamundo;//esto es para agregar una formulario o cosas de otro 
 //carpeta en un solo proyecto
 using pryAPP3C.cafeteria;
+using pryAPP3C.Expendedora;
 
 namespace pryAPP3C
 {
@@ -20,7 +21,7 @@ namespace pryAPP3C
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormCafeteria());
+            Application.Run(new FormPrincipal());
         }
     }
 }
